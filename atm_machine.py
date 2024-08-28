@@ -3,24 +3,25 @@ class ATM:
         self.balance = 0
 
     def deposit(self,balance):
-        self.balance = balance
+        self.balance += balance
         return self.balance
         #pass
     def withdraw(self,amount):
-        print("balance",self.balance)
-        if amount >= self.balance:
-            self.amount = self.balance - amount
-            return self.amount
+        #print("balance",self.balance)
+        if amount <= self.balance:
+            amount = self.balance - amount
+            return amount
         else :
             return f"Your Balance is insufficient"
     def check_balance(self):
         return self.balance
         #pass
 
+atm = ATM()
 print("Welcome to Gforgenuis Bank ")
 print()
+
 while True:
-    atm = ATM()
     print()
     print("Plz select the operation : ")
     choice = int(input("1.View Balance\n2.Add Money\n3.Withdraw Money\n "))
