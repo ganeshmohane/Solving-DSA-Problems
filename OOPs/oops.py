@@ -34,3 +34,5 @@ instance.accelerate()
 instance.brake()
 instance.stop()
 
+# we use self for instance for reference like if we make instance ex. 'instance' then that self refers to that instance like it adds like instance.car = car like that
+# also in methods we dont have to say add self to parameter we can directly use it
