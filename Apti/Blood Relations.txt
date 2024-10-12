@@ -1,0 +1,9 @@
+Mother of Mother / Father of Father = GrandFather & GrandMother
+Brother of Father = Uncle
+Sister of Father = Aunt
+Brother of Mother = Maternal Uncle
+Sister of Mother = Maternal Aunt
+Father/Mother of Wife/Husband = Father/Mother In Law 
+Son/Daughter of Uncle/Aunt = Cousine
+Son of Brother/Sister = Nephew
+Daughter of Brother/Sister = Niece
